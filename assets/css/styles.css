@@ -403,3 +403,65 @@ a {
     font-weight: 600;
     line-height: 1.67; /* 166.667% */
 }
+
+/* ========== Quote ========== */
+.quote {
+    margin-top: 200px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.quote .row {
+    display: flex;
+    align-items: center;
+}
+
+.quote .avatar,
+.quote .avatar img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.quote .name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41; /* 141.667% */
+}
+
+.quote .desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.quote .decor {
+    display: flex;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.quote .info {
+    position: relative;
+    width: 740px;
+    margin-left: auto;
+}
+
+.quote .info .image {
+    position: absolute;
+    top: -28px;
+    left: -30px;
+}
+
+.quote .info .desc {
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53; /* 153.846% */
+}
