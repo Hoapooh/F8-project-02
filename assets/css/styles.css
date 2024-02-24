@@ -86,6 +86,11 @@ a {
     line-height: 1.75; /* 175% */
 }
 
+.navbar .item a:hover:not(.first-anchor) {
+    text-shadow: currentcolor 1px 0px 0px;
+    color: var(--primary-color);
+}
+
 .navbar .highlight-item {
     position: relative;
 }
